@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <div className="flex flex-col gap-4 items-center justify-center">
       <img
-        src="/src/assets/milan.jpeg"
+        src="/milan.jpeg"
         alt="Milan Masnikosa"
         className="size-48 rounded-full shadow-md hover:shadow-2xl transition-shadow duration-300 ease-in-out"
       />
