@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import ActionButtons from './components/ActionButtons';
 import Header from './components/Header';
 import ThemeToggle from './components/ThemeToggle';
 import ResumeSection from './components/ResumeSection';
@@ -55,10 +54,10 @@ function App() {
         className="flex flex-col items-center justify-center gap-8 z-10"
       >
         <Header />
-        <ActionButtons
+        {/* <ActionButtons
           onResumeClick={() => setActivePanel('resume')}
           onPortfolioClick={() => setActivePanel('portfolio')}
-        />
+        /> */}
 
         <div className="mt-6">
           <SocialMediaButtons />
